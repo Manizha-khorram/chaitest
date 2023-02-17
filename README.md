@@ -54,7 +54,7 @@ file i/o or database access in this exercise.
 You have to add a line
 
 ```
-module.exports =  { app, server }
+module.exports =  { app, server }  //what is the reason for this, should it be in the app.js ?!
 ```
 To the bottom of your app.js, because each of the test files require these values.
 
